@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "7 ways to optimize your robotics project for efficiency",
+    "excerpt": "Learn the professional techniques to make your robotics projects more efficient and reliable.",
+    "content": "<p>Robotics projects can be complex and challenging, but with the right approach, you can significantly improve their efficiency and reliability. In this article, we'll explore seven proven strategies that professional robotics engineers use to optimize their projects.</p><h2>1. Start with a Clear Design Plan</h2><p>Before diving into building, take time to create a comprehensive design plan...</p>",
+    "image": "https://i.ibb.co/LXXQs1x2/6-17.webp",
+    "category": "Tips & Tricks",
+    "date": "March 15, 2025",
+    "readTime": "8 min read",
+    "author": {
+      "name": "Dr. Sarah Chen",
+      "role": "Robotics Engineer",
+      "avatar": "/placeholder.svg"
+    },
+    "tags": ["Robotics", "Efficiency", "Engineering", "Design"]
+  },
+  {
+    "id": 2,
+    "title": "Top 5 sensors every robotics student should know",
+    "excerpt": "A guide to essential sensors like ultrasonic, infrared, and gyroscope.",
+    "content": "<p>Sensors play a key role in every robot's interaction with its environment...</p>",
+    "image": "https://i.ibb.co/LXXQs1x2/6-17.webp",
+    "category": "Components",
+    "date": "February 10, 2025",
+    "readTime": "6 min read",
+    "author": {
+      "name": "James Patel",
+      "role": "Embedded Systems Expert",
+      "avatar": "/placeholder.svg"
+    },
+    "tags": ["Robotics", "Sensors", "Learning"]
+  },
+  {
+    "id": 3,
+    "title": "Beginner's guide to Raspberry Pi in robotics",
+    "excerpt": "Start your first smart robot using Raspberry Pi and Python.",
+    "content": "<p>Raspberry Pi has become a popular choice for robotics enthusiasts due to its flexibility and power...</p>",
+    "image": "https://i.ibb.co/LXXQs1x2/6-17.webp",
+    "category": "Getting Started",
+    "date": "January 22, 2025",
+    "readTime": "5 min read",
+    "author": {
+      "name": "Emily Zhang",
+      "role": "Tech Educator",
+      "avatar": "/placeholder.svg"
+    },
+    "tags": ["Raspberry Pi", "Python", "Projects"]
+  },
+  {
+    "id": 4,
+    "title": "How to use computer vision in robotics with OpenCV",
+    "excerpt": "Use OpenCV to help your robots see and understand the world.",
+    "content": "<p>Computer vision unlocks powerful new capabilities in robotics...</p>",
+    "image": "https://i.ibb.co/LXXQs1x2/6-17.webp",
+    "category": "Vision",
+    "date": "April 2, 2025",
+    "readTime": "9 min read",
+    "author": {
+      "name": "Rajeev Nair",
+      "role": "AI Robotics Developer",
+      "avatar": "/placeholder.svg"
+    },
+    "tags": ["OpenCV", "AI", "Robotics", "Computer Vision"]
+  },
+  {
+    "id": 5,
+    "title": "Using ROS2 for building modular robots",
+    "excerpt": "An overview of how ROS2 helps in scalable robotics system design.",
+    "content": "<p>ROS2 is the next-gen Robot Operating System for professional and scalable robot applications...</p>",
+    "image": "https://i.ibb.co/LXXQs1x2/6-17.webp",
+    "category": "Development Tools",
+    "date": "March 5, 2025",
+    "readTime": "7 min read",
+    "author": {
+      "name": "Mira Al-Hassan",
+      "role": "Control Systems Engineer",
+      "avatar": "/placeholder.svg"
+    },
+    "tags": ["ROS", "Systems", "Modular"]
+  },
+  {
+    "id": 6,
+    "title": "Avoid these 5 common mistakes in robot design",
+    "excerpt": "Designing a robot is hard. Don't make these typical errors.",
+    "content": "<p>Even experienced engineers sometimes fall into common traps when designing robots...</p>",
+    "image": "https://i.ibb.co/LXXQs1x2/6-17.webp",
+    "category": "Mistakes & Fixes",
+    "date": "February 28, 2025",
+    "readTime": "4 min read",
+    "author": {
+      "name": "Leonard Green",
+      "role": "Mechanical Engineer",
+      "avatar": "/placeholder.svg"
+    },
+    "tags": ["Design", "Tips", "Robotics"]
+  }
+]
