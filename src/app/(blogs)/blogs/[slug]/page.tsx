@@ -6,6 +6,7 @@ import { Calendar, Clock, Tag, Share2, Facebook, Twitter, Linkedin } from "lucid
 import BlogCard from "@/components/shared/blog-card"
 import { blogs } from "@/lib/blogs"
 import { notFound } from "next/navigation"
+// import {use} from "react";
 
 // This would typically come from a CMS or database
 // const getBlogPost = (slug: string) => {
@@ -135,14 +136,11 @@ import { notFound } from "next/navigation"
 //   ]
 // }
 
-interface BlogPostPageProps {
-  params: {
-    slug: string;
-  };
-}
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const { slug } = params
+export default async function BlogPostPage({ params }: {
+  params: Promise<{slug: string}> ;
+}) {
+  const { slug } = await params
   // const post = getBlogPost(slug)
   // const relatedPosts = getRelatedPosts(slug)
 

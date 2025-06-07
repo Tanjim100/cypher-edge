@@ -13,16 +13,20 @@ import { notFound } from "next/navigation"
 // import { toast } from "react-toastify"
 // import { useContext, useState } from "react"
 // import { CartContext } from "@/context/CartContext"
+import {use} from "react";
 
 
-export default function Page({ params }: { params: { id: string } }) {
+export default function Page({ params }: { 
+  params: Promise<{ id: string }>
+}) {
 
   // const [quantity, setQuantity] = useState(1);
   // const {addToCart} = useContext(CartContext);
+  const { id } = use(params);
 
     console.log(params);
   // Find the product by ID
-  const product = products.find((p) => p.id.toString() === params?.id);
+  const product = products.find((p) => p.id.toString() === id);
   console.log(product);
 
   
