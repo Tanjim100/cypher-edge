@@ -58,7 +58,7 @@ export default function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="w-[250px] sm:w-[300px] p-0">
-                <div className="flex flex-col h-full">
+                <div className="flex flex-col h-full bg-white">
                   <div className="border-b p-4 flex items-center justify-between">
                     <Link href="/" className="text-xl font-bold" onClick={() => setIsOpen(false)}>
                       CyperEdge

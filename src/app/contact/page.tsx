@@ -9,6 +9,10 @@ import roboImg from "../../../public/images/roboshop.webp"
 import { BlurFade } from "@/components/magicui/blur-fade"
 import { TextAnimate } from "@/components/magicui/text-animate"
 
+export const metadata = {
+  title: "Contact Cypher",
+};
+
 export default function Page() {
 
     const mapSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.1506852376256!2d91.9704551753521!3d22.460971079571447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2f1dac23e023%3A0xa8390badc675b5e7!2sIT%20Business%20Incubator%2C%20CUET!5e0!3m2!1sen!2sbd!4v1748513062073!5m2!1sen!2sbd`;

@@ -22,7 +22,7 @@ const CallToAction = () => {
                             Create Account
                         </Link>
                     </Button> */}
-                    <Button>
+                    <Button className='border-2'>
                         <Link href="#contact">
                             Contact
                         </Link>

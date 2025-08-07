@@ -5,6 +5,11 @@ import workImg1 from '../../../public/images/about/workImg1.avif'
 import workImg2 from '../../../public/images/about/workImg2.avif'
 import workImg3 from '../../../public/images/about/workImg3.avif'
 import { TypingAnimation } from '@/components/magicui/typing-animation';
+// import { title } from 'process';
+
+export const metadata = {
+  title: "About Cypher",
+};
 
 function Page() {
   return (

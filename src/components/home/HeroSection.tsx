@@ -32,12 +32,12 @@ const HeroSection = () => {
                         </p>
 
                         <div className="flex flex-wrap gap-4">
-                            <Button variant="outline" className="hover:text-gray-700" asChild>
+                            <Button variant="outline" className="text-white hover:text-gray-700 hover:bg-white" asChild>
                                 <Link href="#products" >
                                     See Our Products
                                 </Link>
                             </Button>
-                            <Button variant="outline" className='border text-white bg-transparent' asChild>
+                            <Button variant="outline" className='border text-white bg-transparent hover:text-gray-700 hover:bg-white' asChild>
                                 <Link href="#courses" className="">
                                     Explore Courses
                                 </Link>

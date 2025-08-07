@@ -73,7 +73,7 @@ const FeatureSection = () => {
         </div>
         
         <div className="mt-16 flex justify-center gap-4 ">
-          <Button>
+          <Button className='outline'>
           <Link href="#services" className="">
             See Our Full Offer
           </Link>
