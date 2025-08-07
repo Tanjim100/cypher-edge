@@ -96,7 +96,7 @@ export default function BlogsPage() {
   return (
     <main className="flex min-h-screen flex-col">
       {/* Hero Section */}
-      <section className="relative py-20 border-b">
+      <section className="relative py-20 border-b px-4">
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=600&width=1200')] bg-cover bg-center opacity-10"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-background/80"></div>
 

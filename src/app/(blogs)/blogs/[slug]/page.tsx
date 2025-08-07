@@ -155,7 +155,7 @@ export default async function BlogPostPage({ params }: {
     <main className="flex min-h-screen flex-col">
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto pt-10 pb-8 px-2 md:flex md:gap-4">
-        <div className="container w-3/4">
+        <div className="container w-full px-4 md:px-2 md:w-3/4">
           <div className="mb-6">
             <Link href="/blogs" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Back to Blog
@@ -231,7 +231,7 @@ export default async function BlogPostPage({ params }: {
             </div>
           </div>
         </div>
-        <div className="container w-1/4 p-2 ">
+        <div className="container w-full md:w-1/4 p-2 ">
           <h2 className="text-2xl font-bold mb-8">Related Articles</h2>
 
           <div className="grid grid-cols-1 gap-6">
